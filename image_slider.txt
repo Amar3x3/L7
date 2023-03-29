@@ -1,0 +1,71 @@
+/*Style.css*/
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:ital@1&family=Source+Code+Pro:wght@500&family=Ubuntu:wght@300;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:ital@1&family=Source+Code+Pro:wght@500&family=Ubuntu:wght@300&display=swap');
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 20s linear infinite;
+    transition: 300ms;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 139, 209, 0.5); /*(138, 192, 228, 0.5)*/
+}
+.principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+.principal h1{
+    font-size: 4.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2rem;
+    background: #95cbfbb0;
+    border-radius: 0.7rem;
+    text-decoration: underline;
+
+}
+@keyframes slide {
+    0%{
+        background-image: url(dce1.jpg);
+    }20%{
+        background-image: url(dce1.jpg);
+    }25%{
+        background-image: url(dce2.jpg);
+    }45%{
+        background-image: url(dce2.jpg);
+    }50%{
+        background-image: url(dce3.jpg);
+    }70%{
+        background-image: url(dce3.jpg);
+    }75%{
+        background-image: url(dce8.jpg);
+    }100%{
+        background-image: url(dce8.jpg);
+    }  
+
+}
+
+
+/*Html*/
+<div class="slider">
+    <div class="load">
+
+    </div>
+    <div class="content">
+        <div class="principal">
+            <h1>Career</h1>
+        </div>
+    </div>
+</div> 
