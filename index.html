@@ -6,8 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 <body class="career0">
+
+    <div class="total-nav">
+        <header class="header-nav">
+            <div class="logo">
+                <img src="logo.png" alt="" srcset="">
+            </div>
+            <nav class="nav" id="nav-menu">
+                <ion-icon name="close" class="header_close" id="close-menu"></ion-icon>
+        
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">About Us</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Products</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Career</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Clients</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Contact Us</a></li>
+                </ul>
+            </nav>
+        
+            <ion-icon name="menu-outline" class="header_toggle" id="toggle-menu"></ion-icon>
+        </header>
+    </div>
+
+
 <div class="slider">
     <div class="load">
 
@@ -94,32 +119,20 @@
         <h1 class="blue">Hire You</h1>
     </div>
     <div class="form">
-        <div class="form_back">
-            <div class="content">
-                <div class="form_internal">
-                    <input type="email" class="email_style" name="" placeholder="Email" id="">
-                    <input type="tel" class="email_style" name="" placeholder="Phone Numer" id="">
-                    <input type="text" name="" class="email_style" placeholder="Full Name" id="">
-                    <select class="role_style" name="role" id="role">
-                        <option value="rol0">What role are you looking for </option>
-                      <option value="rol1">Produt manager</option>
-                      <option value="rol2">Sales manager</option>
-                      <option value="rol3">Supervivsor</option>
-                      <option value="rol4">IT Work</option>
-                    </select>
-                    <select class="role_style exp" name="role" id="role">
-                        <option value="rol0">Any previous Experience </option>
-                      <option value="exp1">Yes</option>
-                      <option value="exp2">No</option>
-                    </select>
-                    <div class="btns_grid">
-                        <a href="" class="btn">Upload resume</a>
-                        <a href="" class="btn">Submit</a>
-                    </div>
-
-                </div>
+        <form class="form1">
+            <h2>Hiring Form</h2>
+            <p class="p" type="Name:"><input type="text" placeholder="Write your name here.." required></input></p>
+            <p class="p" type="Email:"><input type="email" placeholder="Let us know how to contact you back.." required></input></p>
+            <p class="p"type="Message:"><input type="text" placeholder="Tell about Yourself" required></input></p>
+            <p class="p"type="Phone number"><input type="tel" placeholder="Phone number" required></input></p>
+            
+            <button class="submitbtn">Submit</button>
+            <button>Upload Resume</button>
+            <div class="div">
+              <span class="span fa fa-phone"></span>001 1023 567
+              <span class="span fa fa-envelope-o"></span> DCEREF.hr@company.com
             </div>
-        </div>
+          </form>
     </div>
 </section>
 
@@ -129,5 +142,12 @@
 </section>
 
 <script src="app.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    
+   
+
+
 </body>
 </html>
